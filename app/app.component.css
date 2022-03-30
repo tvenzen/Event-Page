@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Suisse Intl;
+    src: url(../assets/Fonts/SuisseIntl-Regular.otf);
+}
+
+*{
+    align-content: center;
+    font-size: 21px;
+    font-family: Suisse Intl, Arial;
+}
+
+.eventHolder{
+    flex-flow: column;
+    position: relative;
+    margin-left: 18em;    
+    display: flex;
+
+    }
+    .rowFlex{
+        flex-flow: row nowrap;
+        position: relative;
+        display: flex;
+        }
+        .rowFlex .colFlex{
+            flex-flow: column nowrap;
+            position: relative;
+            display: flex;
+            }
+            .rowFlex .colFlex .venuePic{
+                width: 711px;
+                height: 441px;
+            }
+            .rowFlex .colFlex .eventTitle{
+                font-size: 42px;
+                color:#C92570
+            }
+
+            .rowFlex .colFlex .buyButton{
+                height: 60px;
+                width: 178px;
+                background-color: #C92570;
+                border-color: #C92570;
+                border-radius: 2px;
+                border-style: none;
+                color:white;
+            }
+
+.embolden{
+    font-weight: bold;
+    }
+
+#eventBody{
+    margin-top: 36px;
+    margin-right: 4.3em;
+    display: flex;
+    }
+
+
+#locationDate p{
+    margin: 1px;
+    padding-left: 2em;
+    }   
+    #locationDate .location{
+        font-weight: bold;
+        padding-bottom: 8px;
+    }
+    #locationDate .stateName{
+        padding-top: 8px;
+    }
+
+#ticketHandler{
+    margin-right: 20em;
+    }
+    #ticketHandler .buttonHandler{
+        display: flex;
+        }
+        #ticketHandler .buttonOrbitTop{
+            position: relative;
+            left: 123px;
+            color: #222222
+        }
+        #ticketHandler .buttonOrbitBottom{
+            position: relative;
+            left: 102px;
+            color: #FF0A00
+        }
+        #ticketHandler .buttonHandler .squareUpload{
+            height: 20px;
+            width: 20px;
+            position: relative;
+            top: 20px;
+            margin-right: 36px;
+        }
+        #ticketHandler .buttonHandler .heart2{
+            height: 19px;
+            width: 22px;
+            position: relative;
+            top: 20px;
+            margin-right: 32px;
+
+        }
+
+
+
+.test{
+    flex-flow: row wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    .eventHolder{
+        margin-left:4em;
+    }
+
+    #eventBody p{
+        width: 50vw;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .eventHolder{
+       /* margin-left: 0em; */
+    }
+    
+    .eventHolder .venuePic{
+        width: 568.8px !important;
+        height: 352.8px !important;
+    }
+
+    #locationDate{
+        left: 43px;
+    }
+    .embolden{
+        width: 150px;
+    }
+    
+    #eventBody p{
+        width: 73vw;
+
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .eventHolder .venuePic{
+        width: 568.8px !important;
+        height: 352.8px !important;
+    }
+    #locationDate{
+        left: 18px;
+    }
+
+    #eventBody p{
+        width: 155vw;
+
+    }
+
+    #ticketHandler{
+        right: 212px;
+        max-height: 175px;
+    }
+
+}

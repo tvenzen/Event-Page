@@ -1,0 +1,86 @@
+<section>
+  <div class="eventHolder">
+    <div class="rowFlex">
+      <div class="colFlex">
+        <img class="venuePic" src="assets/venuepic.png" alt="" />
+      </div>
+      <div class="colFlex" id="locationDate">
+        <p class="embolden">Saturday </p>
+        <p class="embolden">Apr 25, 11:00 AM</p>
+        <br>
+        <p class="location">Location</p>
+        <p>35 Jennings Circle</p>
+        <p>Freeport, NY 11520</p>
+        <p class="stateName">New York, NY</p>
+      </div>
+    </div>
+    <!--
+    <swal 
+      #buyTickets
+      title="How many tickets would you like to purchase?"
+      input="range"
+      inputLabel="Tickets"
+      inputAttributes=min
+      inputValue="1"
+      [showDenyButton]="true" 
+      denyButtonText="Cancel Purchasing"
+      [showCancelButton]="true" 
+      >
+      
+      
+    </swal>  -->
+    
+    
+
+      <!--
+
+    <button [swal] ="{
+      title: 'How many tickets would you like to purchase?',
+      input: 'select',
+      inputOptions: {
+        'Fruits': {
+          apples: 'Apples',
+          bananas: 'Bananas',
+          },
+        'Vegetables': {
+          potato: 'Potato'
+          broccoli: 'Broccoli'
+          },
+        },
+      inputPlaceholder: 'Select a Fruit'
+      showCancelButton: true
+      }"> Buy Tickets</button> -->
+
+
+    <div class="rowFlex">
+      <div class="colFlex" id="eventBody">
+        <h1 class="eventTitle">UX Design Workshop</h1>
+
+        <p class="embolden">Hosted By UX Agency</p>
+        
+        <p>In this workshop we will be going over UX fundamentals. We will go over user flows, users task and etc. We will also be going ovker the best
+          UX practices and new trends in UX. We will share ideas with each other and we will also be looking at companies with great US and we will be talking about what makes them so them.
+        </p>
+        
+        <!--
+        <p>Lorem ipsum dolor sit amet, conseteur sadopscing elitr, sed diam nomumy eirmod teport invidunt ut labore et dolore magna aliquyam erat, sed
+          diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor. 
+        </p> -->
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+          ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        </p>
+
+      </div>
+      <div class="colFlex" id=ticketHandler> 
+        <p class="buttonOrbitTop"> $4.99 per ticket </p>
+
+        <span class="buttonHandler"> <img  class="squareUpload" src="assets/square-upload.svg" alt=""/> <img class="heart2" src="assets/heart-2.svg" alt=""> <button class="buyButton" (click)="buyTickets()">Buy Tickets</button></span>
+        <p class="buttonOrbitBottom"> 11 tickets remaining </p>
+      </div>
+    </div>
+  </div>
+</section>
+
